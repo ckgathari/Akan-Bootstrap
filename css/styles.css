@@ -21,7 +21,7 @@ select {
 h1 {
     column-span: all;
     text-align: center;
-    color: silver;
+    color: rgb(9, 17, 9);
 }
 
 h4 {
@@ -30,7 +30,7 @@ h4 {
 }
 
 p {
-    color: white;
+    color: rgb(240, 101, 101);
     text-size-adjust: 20px;
     margin: 15px;
 }
