@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <div class="moi">
+    <div class="description">
         <h1>AKAN NAME RESOLVER</h1>
         <p>
             In Ghana, a child's First name is dependednt on the day of the week that he/she was born. This web applicaton will help determine a person's first name depending on their birthday and gender. The user enters their date of birth and their gender and the tool will return their Akan names.<br/><br/>
@@ -18,17 +18,18 @@
 
         </p>
     </div>
-    <div class="container">
+    <div class="resolver">
         <form>
             <div class="form" onsubmit="event.preventDefault()">
                 <br/>
                 <label for="Year">Year Of Birth</label><br/>
-                <input type="text" class="form-control" id="year" placeholder="Enter the year">
+                <input type="text" class="form-control" id="year" placeholder="Enter the year you were born">
             </div>
             <br/><br/>
-            <div class="form">
+            <div class="form">                
                 <label for="Month">Month of birth</label><br/>
-                <select id="month">
+                <input type="number" class="form-control" id="month" placeholder="Enter the Month you were born">
+                <!-- <select id="month">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -41,7 +42,7 @@
                     <option>10</option>
                     <option>11</option>
                     <option>12</option>
-                </select>
+                </select> -->
             </div>
             <br/><br/>
             <div class="form">

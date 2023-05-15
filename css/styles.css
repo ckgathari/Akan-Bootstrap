@@ -2,20 +2,16 @@ select {
     width: 183px;
 }
 
-.container {
-   text-align: center;
-   background-color: silver;
-   height: 500px;
-}
-    
-.moi {
+* {
+    box-sizing: border-box;
+  }
+
+.description {
     height: 300px;
-    column-count: 3;
-    column-rule: 5px solid silver;
-    background-image: url(img/volcano.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    column-count: 2;
+    column-gap: 40px;
+    background-color: blueviolet;
+    background-position: center;   
 }
 
 h1 {
@@ -30,7 +26,13 @@ h4 {
 }
 
 p {
-    color: rgb(240, 101, 101);
+    color: rgb(8, 8, 8);
     text-size-adjust: 20px;
     margin: 15px;
 }
+
+.resolver {
+    text-align: center;
+    background-color: blueviolet;
+    height: 500px;
+ }
