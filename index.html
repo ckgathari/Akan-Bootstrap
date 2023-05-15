@@ -28,21 +28,7 @@
             <br/><br/>
             <div class="form">                
                 <label for="Month">Month of birth</label><br/>
-                <input type="number" class="form-control" id="month" placeholder="Enter the Month you were born">
-                <!-- <select id="month">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                    <option>7</option>
-                    <option>8</option>
-                    <option>9</option>
-                    <option>10</option>
-                    <option>11</option>
-                    <option>12</option>
-                </select> -->
+                <input type="number" class="form-control" id="month" placeholder="Enter the Month you were born">                
             </div>
             <br/><br/>
             <div class="form">
@@ -82,18 +68,17 @@
                 </select>
             </div>
             <br/><br/>
-            <div class="form">
-                <div>
-                    <h3>Gender</h3>
-                    <label for="radio" class="radio-inline">
-                        <input type="radio" value="male" name="gender" id="male" required />
-                        Male </label><br />
-                    <label for="radio" class="radio-inline">
-                        <input type="radio" value="male" name="gender" id="female" required />
-                        Female
+            <div class="form">                
+                <h3>Gender</h3>                   
+                    <label class="radio-inline">
+                        <input type="radio" value="male" id="male" name="optradio" checked>Male
                     </label>
-                </div>
-            </div>
+                    <label class="radio-inline">
+                        <input type="radio" value="female" id="female" name="optradio">Female
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="nay" id="nay" name="optradio">Rather Not Say
+                    </label>
         </form>
         <br/><br/>
         <button type="submit" onclick="getName()" onsubmit="event.preventDefault()"
