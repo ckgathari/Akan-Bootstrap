@@ -21,9 +21,8 @@ h1 {
     color: rgb(9, 17, 9);
 }
 
-h4 {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+.btn {
+    background-color: blue;
 }
 
 p {

@@ -11,6 +11,7 @@ function getName(){
     var day =parseInt(document.getElementById("day").value);      
     var male = document.getElementById("male");
     var female = document.getElementById("female");
+    var nay = document.getElementById("nay")
     //validation
     if(day<=0||day>31)
     alert("enter a valid day");
