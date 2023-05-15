@@ -22,7 +22,10 @@ function getName(){
     if(male.checked==true){
        alert("You were born on " +daysOfWeek[birthDay]+ " and Your Akan name is " + maleAkanNames[birthDay])
     }
-    else if(female.checked==true){
+    if(female.checked==true){
        alert("You were born on " +daysOfWeek[birthDay]+ " and Your Akan name is " + femaleAkanNames[birthDay])
     }
+    if(nay.checked==true){
+      alert("This system is only for those who proudly identifies themselves as Male or Female")
+   }
     }
