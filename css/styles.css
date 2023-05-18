@@ -1,11 +1,8 @@
-/* select {
-    width: 183px;
-} */
-
-/* * {
-    box-sizing: border-box;
+body {
+    border-style: dashed;
+    border-color: red;
     
-  } */
+  }
 
 .description {
     height: 300px;
@@ -39,6 +36,4 @@ p {
     height: 500px;
  }
 
- /* .form {
-    background-image: url("/img/sunset-gb.jpg");
- } */
+ 
