@@ -26,7 +26,7 @@ HOW IT WORKS: The form validates information enered by a user and if correct res
 
 The webpage can be launched using any of the modern browser either through a computer, tablet or phone as it is responsive. 
 It can be set up via local environment but it has also been hosted in GITHUB pages and can be accessed via link
-https://ckgathari.github.io/Studio-project/
+https://ckgathari.github.io/Akan-Bootstrap/
 
 ## Bugs
 
